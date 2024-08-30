@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Identifier</title>
+</head>
+
+<body>
+    <div id="displayWeather">
+        <form id="form" class="form">
+            <input id="locationInput" type="text" placeholder="Enter location (eg - Delhi)" required>
+            <input type="submit" value="View Weather" id="locationSubmit">
+        </form>
+        <div id="flex">
+            <div>
+                <img id="icon">
+                <h3 id="conditions"></h3>
+            </div>
+            <div>
+                <h2 id="temp"></h2>
+                <h2 id="city"></h2><br>
+                <h3 id="description"></h3>
+            </div>
+        </div>
+        <div id="flex">
+            <h3 id="coordinates"></h3>
+            <br>
+            <h3 id="precip"></h3>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
