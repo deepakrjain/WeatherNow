@@ -1,6 +1,6 @@
 WeatherNow - A simple web application to display the current weather for any location using the Visual Crossing Weather API.
 
-WeatherNow allows users to input a location and get real-time weather data such as temperature, conditions, coordinated and other relevant information.
+WeatherNow allows users to input a location and get real-time weather data such as temperature, conditions, coordinates and other relevant information.
 
 Usage
 1. Open the WeatherNow application.<br>
